@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 from PIL import Image
 from itertools import chain
 import random
@@ -8,8 +7,6 @@ from email.message import EmailMessage
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
-
 import random
 import smtplib
 from email.mime.text import MIMEText
